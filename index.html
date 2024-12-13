@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <div class="navbar">
+          <h1>Donuts</h1>
+         <div id="novelists" class="navbar-menu">
+           <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#chefs">Chefs</a></li>
+             <li><a href="#gallery"> Gallery</a></li>
+             <li><a href="#Contact"> Contact</a></li>
+           </ul>    
+          </div>
+           <div class="hamburger" onclick="toggleMenu()">
+             <span></span>
+             <span></span>
+             <span></span>
+            </div>
+        </div>
+
+        <div id="Home" class="hero-section">
+          <img src="hero1.png" alt="Coffee Background" class="hero-img">
+          <div class="hero-text">
+            <h1>Start Your Day With A <br> Fresh Pastries </h1>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dignissimos, necessitatibus <br>facere autem perferendis iusto error</p>
+            <button class="shop-btn">Shop Now</button>
+          </div>
+      </div>
+        
+        <div class="chefs" id="chefs">
+          <div class="chefs-head">
+            <h3>CHEFS</h3>
+            <h2>Our <span>Proffesional</span> Chefs</h2>
+          </div>
+
+          <div class="itemss">
+
+            <div class="item ">
+              <div class="image">
+               <img src="chef1.png" alt="walter white" />
+              </div>
+             <div class="item-content">
+                <h4>Walter White</h4>
+                <h5>Master Chef</h5>
+                <p>
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+                </p>
+              </div>
+            </div>
+    
+            <div class="item ">
+              <div class="image">
+               <img src="chef2.png" alt="walter white" />
+              </div>
+              <div class="item-content">
+                <h4> Jhonson Andro</h4>
+                <h5>Patissier</h5>
+                <p>
+                Quo esse repellendus quia id. Est eum et accusantium pariatur
+                fugit nihil minima suscipit corporis. Voluptate sed quas
+                reiciendis animi neque sapiente.
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+               <img src="chef3.png" alt="walter white" />
+              </div>
+              <div class="item-content">
+               <h4>William Anderson</h4>
+               <h5>Cook</h5>
+               <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <div class="gallery-head">
+            <h3>GALLERY</h3>
+            <h2>Check <span>Our Gallery</span></h2>
+          </div>
+          <div class="our-gallery">
+
+           <div class="item-gallery">
+
+            <div class="img-gallery">
+              <img src="img4.png"/>
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+             </div>
+            </div>
+    
+            <div class="img-gallery">
+              <img src="img5.png"  />
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+            <div class="img-gallery">
+              <img src="img6.png"  />
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+           </div>
+
+           <div class="item-gallery">
+            <div class="img-gallery">
+              <img src="img1.png." />
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+            <div class="img-gallery">
+              <img src="img2.png" />
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+    
+            <div class="img-gallery">
+              <img src="img3.png"  />
+              <div class="magic-gallery">
+                <h4>Donuts</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+
+       <section id="Contact" class="form-section">
+        <h1>Contact <span>Us</span></h1>
+        <p>Stay connected with our latest updates</p>
+        <form id="user-form" >
+          <div  class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+          </div>
+          <button type="submit" onclick="validateForm()" class="send">Send</button>
+        </form>
+        </section>
+
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img src="logo.png" alt="Logo">
+            </div>
+            <p>Your trusted brand for quality products.</p>
+            <p>Designed by  <span>Ahmed Nasef</span> <br> &copy; Donuts 2024 All Rights Reserved.
+            </p>
+          </div>
+        </footer>
+        <script src="script.js"></script> 
+</body>
+</html>
